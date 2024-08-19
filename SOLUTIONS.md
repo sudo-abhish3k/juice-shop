@@ -1,4 +1,5 @@
 # Solutions
+1
 
 Did you write a guide specifically on hacking OWASP Juice Shop or record a hacking session of your own? Add it to this
 file and open a PR! The same goes for any scripts or automated tools you made for making Juice Shop easier to hack!
