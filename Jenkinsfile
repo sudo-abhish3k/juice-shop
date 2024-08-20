@@ -3,6 +3,6 @@ node {
     checkout scm
   }
   stage('SonarQube Analysis') {
-     bat "C:/Users/Admin/Downloads/sonar-scanner-cli-5.0.1.3006-windows/sonar-scanner-5.0.1.3006-windows/bin/sonar-scanner.bat -X"
+     bat "C:/Users/Admin/Downloads/sonar-scanner-cli-6.1.0.4477-windows-x64/sonar-scanner-6.1.0.4477-windows-x64/bin/sonar-scanner.bat -X"
     }
   }
