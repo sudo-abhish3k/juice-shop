@@ -4,11 +4,8 @@ node {
   }
   
   stage('SCA via Snyk') {
-    steps {
-      script {
-                bat "snyk monitor --token=bf9c4c75-1679-4a71-a2ec-37b243fd2b87"
-        }
-      }
+    script {
+      bat "snyk monitor --token=bf9c4c75-1679-4a71-a2ec-37b243fd2b87"
     }
   }
 }
