@@ -4,7 +4,7 @@ node {
     }
 
     stage('Secret Scanning Trufflehog') {
-        bat 'trufflehog git . --only-verified'
+        bat 'trufflehog git . --only-verified --json --fail'
     }
   
     stage('SCA via Snyk') {
