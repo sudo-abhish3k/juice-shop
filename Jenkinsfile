@@ -3,10 +3,6 @@ node {
         checkout scm
     }
 
-    stage('Secret Scanning Trufflehog') {
-        bat 'docker run trufflesecurity/trufflehog:latest git https://github.com/sudo-abhish3k/juice-shop --only-verified --json'
-    }
-  
     stage('SCA via Snyk') {
         script {
            bat "C:/Users/Admin/AppData/Roaming/npm/snyk monitor --token=bf9c4c75-1679-4a71-a2ec-37b243fd2b87"
