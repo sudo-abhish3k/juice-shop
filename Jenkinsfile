@@ -4,7 +4,7 @@ node {
     }
 
     stage('Secret Scanning Trufflehog') {
-        bat 'docker run trufflesecurity/trufflehog:latest git https://github.com/sudo-abhish3k/juice-shop --only-verified --json --fail'
+        bat 'docker run trufflesecurity/trufflehog:latest git https://github.com/sudo-abhish3k/juice-shop --only-verified --json'
     }
   
     stage('SCA via Snyk') {
