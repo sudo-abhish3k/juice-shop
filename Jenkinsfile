@@ -2,6 +2,12 @@ node {
   stage('SCM') {
     checkout scm
   }
+
+  stage('Secret Scanning Trufflehog') {
+     {
+      bat 'trufflehog git . --only-verified'
+    }
+  }
   
   stage('SCA via Snyk') {
     script {
