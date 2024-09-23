@@ -4,7 +4,7 @@ node {
     }
 
     stage('SCA via Snyk') {
-	SynkTokenId: 'organization-synk-api-toke'
+	//SynkTokenId: 'organization-synk-api-token'
         script {
            bat "C:/Users/Admin/AppData/Roaming/npm/snyk monitor "
         }
