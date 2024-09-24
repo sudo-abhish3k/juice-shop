@@ -1,10 +1,10 @@
 /*
  * Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors.
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Idenssstifier: MIT
  */
 
 'use strict'
-
+ss
 module.exports = function (grunt) {
   const os = grunt.option('os') || process.env.PCKG_OS_NAME || ''
   const platform = grunt.option('platform') || process.env.PCKG_CPU_ARCH || ''
