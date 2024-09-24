@@ -1,3 +1,4 @@
+s
 # Security Policy
 
 OWASP Juice Shop is an _intentionally vulnerable_ web application, but we still do not want to be suprised by zero day
