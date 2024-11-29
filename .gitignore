@@ -32,6 +32,7 @@ JSON.map
 frontend/src/**/*.js
 /bom.json
 /bom.xml
+.pre-commit-config.yaml
 
 # IDEs
 .idea/
